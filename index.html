@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevAlt Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/devjane.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduccion -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi I am <strong>Anthony Condori</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Back-end dev</p>
+        <img src="img/kalax.jpg" alt="a picture of me " class="intro__img">
+    </section>
+
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>API-REST</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia distinctio vero fugit, est
+                    nesciunt sit dolorem velit itaque cum ex quisquam culpa consequuntur ad! Maiores sint impedit
+                    nesciunt perferendis velit?</p>
+            </div> <!-- /service -->
+
+            <div class="service">
+                <h3>AWS estructure</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque dicta voluptatem ad recusandae
+                    facilis, molestiae suscipit nam, libero qui magnam, nesciunt laborum laudantium consectetur quis
+                    quasi officia iste voluptatibus voluptatum?</p>
+            </div> <!-- /service -->
+
+            <div class="service">
+                <h3>React + express</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quas officiis suscipit explicabo,
+                    animi tempore atque possimus temporibus architecto dignissimos sapiente dolorem delectus est
+                    quisquam debitis voluptatum. Nobis, odio consectetur.</p>
+            </div> <!-- /service -->
+        </div> <!-- services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Developer Silabuz</p>
+
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorum facilis nam fuga, rem perferendis
+                molestiae sapiente! Quo, dolores rerum itaque commodi voluptatem amet necessitatibus cumque. Dolorem
+                deleniti eum aperiam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eveniet incidunt illum soluta vitae aliquam
+                enim, possimus nostrum dolorem ea libero nesciunt, repellat nemo reiciendis iure, excepturi quos quis?
+                Architecto?</p>
+        </div>
+
+        <img src="img/kalax2.jpg" alt="image of me" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Footer-->
+    <footer class="footer">
+        <a href="mailto:acondorichoc@unsa.edu.pe" class="footer__link">Send me a message</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/anthonycondori" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Alt-Anthony" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://youtu.be/_TtW5kZGtjQ" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
